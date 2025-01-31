@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {% endblock title %}
+    </title>
+</head>
+<body>
+<header>
+    {% include 'components/header.html' %}
+</header>
+<main>
+    {% block main %}
+    {% endblock main %}
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
